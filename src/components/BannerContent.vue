@@ -1,7 +1,7 @@
 <template>
   <header class="banner">
     <div class="header-container">
-      <img src="/src/assets/imgs/name-header.png" alt="logo" class="logo" />
+      <img src="/imgs/name-header.png" alt="logo" class="logo" />
       <nav>
         <ul class="centered-list">
           <li><a href="/">Home</a></li>
