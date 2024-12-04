@@ -10,7 +10,7 @@
                 <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
                     <div class="about-text">
                         <h1 class="animated animated-text">
-                            <span class="mr-2">Hey folks, I'm </span>
+                            <span class="mr-2">Hello World, I'm </span>
                                 <div class="animated-info">
                                     <span class="animated-item"> Ellen Alston </span>
                                     <span class="animated-item"> a Software Developer</span>

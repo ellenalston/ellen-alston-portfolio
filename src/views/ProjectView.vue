@@ -1,9 +1,6 @@
 <template>
   <div class="projects">
-    <ProjectCard v-for="(project, index) in projects"
-      :key="project.title"
-      :project="project"
-      :index="index"/>
+    <ProjectCard v-for="(project, index) in projects" :key="project.title" :project="project" :index="index" />
   </div>
 </template>
 
@@ -15,7 +12,19 @@ export default {
   data() {
     return {
       projects: [
-      {
+
+        {
+          title: "Junior Dev Job Search Portal",
+          description: "This application helps organize and manage my job search as a Junior Developer, tracking companies, applications, and positions. It utilizes Spring Boot, Vue.js, and PostgreSQL to provide a full-stack solution while keeping my skills sharp during the job search process.",
+          image: "/src/assets/imgs/junior-dev-search.png",
+          skills: ["Java", "Spring Boot", "Spring Data JDBC", "PostgreSQL", "Vue.js", "JavaScript", "HTML", "CSS", "JSON", "RESTful APIs"],
+          links: {
+            github: "https://github.com/ellenalston/job-search-companies",
+            site: null,
+
+          }
+        },
+        {
           title: "Baking Conversion App",
           description: "The Baking Conversion Tool is a simple web application that allows users to convert between different units of measurement commonly used in baking. Users can input a measurement in one unit and receive the equivalent amount in another unit. The supported units include ounces, milliliters, cups, tablespoons, and teaspoons.",
           image: "/src/assets/imgs/baking-computer.png",
@@ -34,8 +43,8 @@ export default {
           links: {
             github: "https://github.com/ellenalston/pizza-ordering-capstone",
             site: null,
+          }
         }
-      }
         // Add more projects as needed
       ],
     };
@@ -49,32 +58,38 @@ export default {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
+
 /* Alternating Colors for cards */
 
 .project-0 {
-  background-color: #f9f5e7; /* Light beige */
+  background-color: #aadec5;
+  /* Light beige */
 }
 
 .project-1 {
-  background-color: #e5f0fc; /* Dark blue */
+  background-color: #e5f0fc;
+  /* Dark blue */
 }
 
 .project-2 {
-  background-color: #7accb2; /* Teal */
+  background-color: #ff8288;
+  /* Teal */
 }
 
 .project-3 {
-  background-color: #ff8288; /* Coral */
+  background-color: #7accb2;
+  /* Coral */
 }
 
 .project-4 {
-  background-color: #f0f4c3; /* Light green */
+  background-color: #f9f5e7;
+  /* Light green */
 }
 
 @media (max-width: 768px) {
   .projects {
-    grid-template-columns: 1fr; /* Single column on smaller screens */
+    grid-template-columns: 1fr;
+    /* Single column on smaller screens */
   }
 }
 </style>
-
