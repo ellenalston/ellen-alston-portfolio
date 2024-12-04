@@ -1,6 +1,5 @@
 <template>
   <div class="resume-container">
-    <h2>This is my resume</h2>
     <div class="pdf-viewer">
       <PdfApp style="height: 90vh; width: 100%;" pdf="/ellen-alston-resume.pdf" />
     </div>

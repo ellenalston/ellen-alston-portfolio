@@ -495,6 +495,14 @@ b, strong {
   }
 }
 @media (max-width: 767px) {
+
+  .about-text h1 {
+    font-size: 1.5rem; /* Adjust the font size for smaller screens */
+  }
+  
+  .about-text {
+    padding: 0 20px; /* Add padding to avoid text touching the edges */
+  }
   h1 {
     font-size: 2.4em;
   }
@@ -551,6 +559,12 @@ b, strong {
   .about-text {
     text-align: center;
   }
+  .about-text h1 {
+    font-size: 2rem; /* Adjust this as needed */
+    line-height: 1.5;
+    word-wrap: break-word; /* Ensure text wraps instead of being cut off */
+  }
+  
 
   .full-screen {
     padding: 4rem 0;

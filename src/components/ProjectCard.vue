@@ -1,5 +1,5 @@
 <template>
-  <div :class="['project', `project-${index % 5}`]">
+  <div :class="['project', `project-${index % 4}`]">
     <img :src="project.image" :alt="project.title" />
     <div>
       <h2>{{ project.title }}</h2>

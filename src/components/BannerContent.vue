@@ -82,6 +82,7 @@ nav a:hover {
   nav ul {
     flex-direction: column; /* Stack nav items vertically */
     gap: 1rem; /* Reduce space between items */
+    align-items: center; /* Center items horizontally */
   }
 
   nav li {

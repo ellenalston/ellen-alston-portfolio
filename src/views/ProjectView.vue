@@ -44,7 +44,18 @@ export default {
             github: "https://github.com/ellenalston/pizza-ordering-capstone",
             site: null,
           }
+        },
+
+        {
+          title: "Music Therapy Playlist Generator",
+          description: "This database helps music therapists create session-specific playlists by organizing songs, genres, themes, and their relationships. It stores details about songs, genres, and themes, and how they are linked. Plans are in place to expand it into a full-stack application.",
+          image: "/src/assets/imgs/mt-playlist.png",
+          skills: ["PostgreSQL", "SQL", "Database Design", "Data Modeling", "pgAdmin"],
+          links: {
+            github: "https://github.com/ellenalston/music-therapy-playlist",
+            site: null,
         }
+      },
         // Add more projects as needed
       ],
     };
@@ -77,14 +88,10 @@ export default {
 }
 
 .project-3 {
-  background-color: #7accb2;
+  background-color: #f9f5e7;
   /* Coral */
 }
 
-.project-4 {
-  background-color: #f9f5e7;
-  /* Light green */
-}
 
 @media (max-width: 768px) {
   .projects {
