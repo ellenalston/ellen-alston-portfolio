@@ -120,7 +120,7 @@ export default {
 
 /* Additional styling for Ask for Code */
 .links span {
-  background: #fdac9b; /* Pink background for Ask for Code */
+  background: #000076; /* Pink background for Ask for Code */
   color: #f9f5e7; /* Light text color */
   font-size: 0.9rem;
   padding: 6px 10px;

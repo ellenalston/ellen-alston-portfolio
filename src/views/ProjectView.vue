@@ -54,8 +54,32 @@ export default {
           links: {
             github: "https://github.com/ellenalston/music-therapy-playlist",
             site: null,
+          }
+        },
+
+        {
+          title: "Vending Machine Simulator",
+          description: " Developed a Vending Machine Application utilizing object-oriented principles, featuring polymorphism for item-specific purchase messages, dynamic file I/O for inventory loading and transaction logging via Scanner and PrintWriter, and enhanced maintainability through inheritance, method overriding, and efficient resource management.",
+          image: "/imgs/vending-machine.png",
+          skills: ["Java", "Object-Oriented Programming", "File I/O", "Scanner", "PrintWriter"],
+          links: {
+            github: null,
+            site: null,
+            askForCode: true,
+          }
+        },
+        {
+          title: "Tenmo Mock Money Transfer App",
+          description: "Pair-programmed a RESTful API server and command-line Venmo-styled application for simulating peer-to-peer money transfers, featuring secure user authentication and transaction management.",
+          image: "/imgs/tenmo.png",
+          skills: ["Java", "Spring Boot", "PostgreSQL", "RESTful APIs", "DAO Testing", "CLI"],
+          links: {
+            github: null,
+            site: null,
+            askForCode: true,
+          }
         }
-      },
+
         // Add more projects as needed
       ],
     };
