@@ -1,6 +1,8 @@
 <template>
-  <div class="projects">
-    <ProjectCard v-for="(project, index) in projects" :key="project.title" :project="project" :index="index" />
+  <div class="projects-wrapper">
+    <div class="projects">
+      <ProjectCard v-for="(project, index) in projects" :key="project.title" :project="project" :index="index" />
+    </div>
   </div>
 </template>
 
@@ -88,6 +90,22 @@ export default {
 </script>
 
 <style scoped>
+
+/* Add padding to the body to ensure space on the sides */
+body {
+  margin: 0;
+  padding: 0 20px; /* Add horizontal padding to the body */
+}
+
+/* Wrapper for the projects container to prevent overflow */
+.projects-wrapper {
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 20px; /* Add padding to the sides of the container */
+  overflow: hidden; /* Prevents content from spilling out */
+}
+
+/* Projects grid layout */
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -95,32 +113,25 @@ export default {
 }
 
 /* Alternating Colors for cards */
-
 .project-0 {
   background-color: #aadec5;
-  /* Light beige */
 }
 
 .project-1 {
   background-color: #e5f0fc;
-  /* Dark blue */
 }
 
 .project-2 {
   background-color: #ff8288;
-  /* Teal */
 }
 
 .project-3 {
   background-color: #f9f5e7;
-  /* Coral */
 }
-
 
 @media (max-width: 768px) {
   .projects {
-    grid-template-columns: 1fr;
-    /* Single column on smaller screens */
+    grid-template-columns: 1fr; /* Single column on smaller screens */
   }
 }
 </style>

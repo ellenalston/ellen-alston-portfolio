@@ -26,6 +26,10 @@ export default {
   margin: 0 auto; /* Centers the container horizontally */
   padding: 20px; /* Optional: Add some padding around the content */
   text-align: center; /* Center the content */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure space is distributed */
+  height: 100vh; /* Take up full height of the screen */
 }
 
 /* Ensure the PDF viewer respects the container width */
@@ -35,10 +39,8 @@ export default {
   position: relative; /* Ensure the container is positioned relative to the parent */
   z-index: 1; /* Ensure the viewer is above other content */
   margin-top: 15px; /* Optional: Add some space between the content */
-  height: 80vh;
-  width:100%;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  flex-grow: 1; /* Allow the viewer to take available space */
+  margin-bottom: 20px; /* Add space between the viewer and the bottom */
 }
 
 .pdf-app {
