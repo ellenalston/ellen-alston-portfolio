@@ -290,7 +290,7 @@ b, strong {
   color: #ffffff;
 }
 
-.dark-mode {
+/* .dark-mode {
   background: #0c0c0d;
 }
 .dark-mode .navbar-light .navbar-nav .nav-link {
@@ -317,7 +317,7 @@ b, strong {
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
 .dark-mode .owl-carousel button.owl-dot {
   color: #ffffff;
-}
+} */
 
 .timeline-wrapper {
   position: relative;
@@ -367,7 +367,7 @@ b, strong {
   margin-left: 15px;
 }
 
-.owl-carousel .owl-nav span {
+/* .owl-carousel .owl-nav span {
   display: none;
 }
 .owl-carousel .owl-nav .owl-prev:before,
@@ -454,7 +454,7 @@ b, strong {
 }
 .contact-info p, .contact-info a {
   color: #f7f3f3;
-}
+} */
 
 .social-links .uil {
   color: #f7f3f3;
