@@ -40,6 +40,12 @@
 </template>
 
 <style>
+
+.about {
+    margin-top: 0;
+    padding-top: 0;
+}
+
 .about-text h1 {
   font-size: 2rem; /* Adjust based on the font size needed */
   line-height: 1.5;
