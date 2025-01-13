@@ -16,6 +16,17 @@ export default {
       projects: [
 
         {
+          title: "A.M.P.L.I.F.Y. (Advanced Music PlayList Intelligence for You)",
+          description: "Full-stack web application using Java, Spring Boot, PostgreSQL, and Vue.js to help music therapists and enthusiasts create curated playlists by filtering 100+ songs based on detailed metadata, including key, tempo, genres, and themes. Integrated YouTube video embedding and advanced search tools for seamless music discovery and session planning.",
+          image: "/imgs/amplify.png",
+          skills: ["Java", "Spring Boot", "Spring Data JDBC", "PostgreSQL", "Vue.js", "JavaScript", "HTML", "CSS", "JSON", "RESTful APIs"],
+          links: {
+            github: "https://github.com/ellenalston/mt-playlist-generator",
+            site: null,
+          }
+        },
+
+        {
           title: "Junior Dev Job Search Portal",
           description: "This application helps organize and manage my job search as a Junior Developer, tracking companies, applications, and positions. It utilizes Spring Boot, Vue.js, and PostgreSQL to provide a full-stack solution while keeping my skills sharp during the job search process.",
           image: "/imgs/junior-dev-search.png",
@@ -90,19 +101,21 @@ export default {
 </script>
 
 <style scoped>
-
 /* Add padding to the body to ensure space on the sides */
 body {
   margin: 0;
-  padding: 0 20px; /* Add horizontal padding to the body */
+  padding: 0 20px;
+  /* Add horizontal padding to the body */
 }
 
 /* Wrapper for the projects container to prevent overflow */
 .projects-wrapper {
   max-width: 100%;
   box-sizing: border-box;
-  padding: 20px; /* Add padding to the sides of the container */
-  overflow: hidden; /* Prevents content from spilling out */
+  padding: 20px;
+  /* Add padding to the sides of the container */
+  overflow: hidden;
+  /* Prevents content from spilling out */
 }
 
 /* Projects grid layout */
@@ -131,7 +144,8 @@ body {
 
 @media (max-width: 768px) {
   .projects {
-    grid-template-columns: 1fr; /* Single column on smaller screens */
+    grid-template-columns: 1fr;
+    /* Single column on smaller screens */
   }
 }
 </style>
