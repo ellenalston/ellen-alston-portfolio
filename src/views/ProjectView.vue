@@ -16,8 +16,8 @@ export default {
       projects: [
 
         {
-          title: "A.M.P.L.I.F.Y. (Advanced Music PlayList Intelligence for You)",
-          description: "Full-stack web application using Java, Spring Boot, PostgreSQL, and Vue.js to help music therapists and enthusiasts create curated playlists by filtering 100+ songs based on detailed metadata, including key, tempo, genres, and themes. Integrated YouTube video embedding and advanced search tools for seamless music discovery and session planning.",
+          title: "A.M.P.L.I.F.Y.",
+          description: "Advanced Music PlayList Intelligence for You - Full-stack web application using Java, Spring Boot, PostgreSQL, and Vue.js to help music therapists and enthusiasts create curated playlists by filtering 100+ songs based on detailed metadata, including key, tempo, genres, and themes. Integrated YouTube video embedding and advanced search tools for seamless music discovery and session planning.",
           image: "/imgs/amplify.png",
           skills: ["Java", "Spring Boot", "Spring Data JDBC", "PostgreSQL", "Vue.js", "JavaScript", "HTML", "CSS", "JSON", "RESTful APIs"],
           links: {
