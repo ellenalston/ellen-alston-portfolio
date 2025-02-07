@@ -18,7 +18,7 @@
                                 </div>
                         </h1>
 
-                        <p>From music therapy to software development, I bring creativity, empathy, and a passion for innovation to solve problems and make an impact.</p>
+                        <p>As a former music therapist turned software developer, I bring creativity, empathy, and a passion for innovation to solve problems and make an impact.</p>
 
                         <div class="custom-btn-group mt-4">
                           <a href="/ellen-alston-resume.pdf" target="_blank" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
