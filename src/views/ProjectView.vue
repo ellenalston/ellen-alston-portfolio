@@ -22,7 +22,7 @@ export default {
           skills: ["Java", "Spring Boot", "Spring Data JDBC", "PostgreSQL", "Vue.js", "JavaScript", "HTML", "CSS", "JSON", "RESTful APIs"],
           links: {
             github: "https://github.com/ellenalston/mt-playlist-generator",
-            site: null,
+            site: "https://amplify-playlist.com/",
           }
         },
 
