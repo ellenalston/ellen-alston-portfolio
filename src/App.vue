@@ -1,16 +1,16 @@
-<script setup>
-import BannerContent from '@/components/BannerContent.vue'
-import { RouterView } from 'vue-router'
+<script setup> // Vue 3's Composition API
+import BannerContent from '@/components/BannerContent.vue' // import the BannerContent component
+import { RouterView } from 'vue-router' // import the RouterView component, built-in with Vue Router
 </script>
 
 <template>
-  <BannerContent />
-  <RouterView />
+  <BannerContent /> <!--Render the BannerContent component-->
+  <RouterView /> <!--Render the RouterView component-->
 </template>
 
-<style global>
+<style scoped>
 body {
-  font-family: "Karla", sans-serif !important;
+  font-family: "Karla", sans-serif !important; /* imporant to override the global font-family */
   margin: 0;
   padding: 0;
 }
@@ -19,10 +19,10 @@ html, body {
   height: 100%; /* Ensures the content height covers the viewport */
 }
 
-#app {
+#app { /* The app container */
   min-height: 100%; /* Ensures the app container respects full height */
-  display: flex;
-  flex-direction: column;
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack elements vertically */
 }
 
 router-view {
